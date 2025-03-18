@@ -13,4 +13,5 @@ We follow [Doneky Gym](https://docs.donkeycar.com/guide/deep_learning/simulator/
 This code explains the turning right decision.
 
 Step 1: Run `generate_concepts.py` to generate "road black" and "orange concepts."
+
 Step 2: Run  `exp4_run.py` to compute BaTCAVe scores. 

@@ -45,7 +45,7 @@ else:
 
 # Model initialization
 from models.film_model_dense_waypoints import Backbone as ImageBC
-ckpt = '40000.pth'
+ckpt = '40000.pth' # Path to the model checkpoint
 model = ImageBC(img_size=224, embedding_size=256, num_weight_points=36, input_nc=3)
 if ckpt is not None:
     model.load_state_dict(torch.load(ckpt, map_location=device)['model'], strict=True)

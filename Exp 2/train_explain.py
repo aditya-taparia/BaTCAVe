@@ -286,8 +286,8 @@ from captum.concept._utils.common import concepts_to_str
 import pandas as pd
 
 
-df = pd.read_json('actions.json', orient='records', lines=True) # replace with exp action
-df2 = pd.read_json('observations.json', orient='records', lines=True) # replace with obs action
+df = pd.read_json('actions.jsonl', orient='records', lines=True) # replace with exp action
+df2 = pd.read_json('observations.jsonl', orient='records', lines=True) # replace with obs action
 
 # Define a function to adjust the keys
 def adjust_key_names(loaded_dict):

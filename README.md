@@ -1,4 +1,4 @@
-# BaTCAVe
+# BaTCAVe: Trustworthy Explanations for Robot Behaviors
 
 ## Structure
 This project is organized into the following directories:
